@@ -35,4 +35,5 @@ public:
 	void printDFS(char startVertex);
 private:
 	std::vector<AdjacencyList> adjacencyList;
+	AdjacencyList find(char vertex);
 };
