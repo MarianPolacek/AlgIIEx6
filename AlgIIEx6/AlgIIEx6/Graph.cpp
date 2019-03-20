@@ -83,12 +83,12 @@ void Graph::printGraph()
 	}
 }
 
-void Graph::printBFS()
+void Graph::printBFS(char startVertex)
 {
 	// TODO: Implement BFS
 }
 
-void Graph::printDFS()
+void Graph::printDFS(char startVertex)
 {
 	// TODO: Implement DFS
 }

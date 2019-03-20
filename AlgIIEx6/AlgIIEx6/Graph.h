@@ -31,8 +31,8 @@ public:
 	void addEdge(char from, char to);
 	void printGraph();
 
-	void printBFS();
-	void printDFS();
+	void printBFS(char startVertex);
+	void printDFS(char startVertex);
 private:
 	std::vector<AdjacencyList> adjacencyList;
 };

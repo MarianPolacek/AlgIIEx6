@@ -37,7 +37,17 @@ int main()
 	graph.addEdge('I', 'J');
 	graph.addEdge('D', 'J');
 
+	std::cout << "Graph: " << std::endl;
+
 	graph.printGraph();
 
+	// EX1: Implement BFS traversal, print edges in order, they were visited
+	std::cout << std::endl;
+	std::cout << "BFS traversal: " << std::endl;
+	graph.printBFS('A');
 
+	// EX2: Implement DFS traversal, print edges in order, they were visited
+	std::cout << std::endl;
+	std::cout << "DFS traversal: " << std::endl;
+	graph.printDFS('A');
 }
